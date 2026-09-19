@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FBF9F5;
+  }
+
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #161513;
+    background-color: #FBF9F5;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #FBF9F5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #D5CEC0;
+    border-radius: 0;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9E988D;
+  }
+
+  ::selection {
+    background-color: #A84D32;
+    color: #FBF9F5;
+  }
+}
+
+@layer utilities {
+  .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  /* Hairline separator */
+  .border-hairline {
+    border-color: #E8E3D7;
+  }
+
+  /* Image aspect ratio container */
+  .art-aspect-portrait {
+    aspect-ratio: 4 / 5;
+  }
+
+  .art-aspect-landscape {
+    aspect-ratio: 16 / 11;
+  }
+
+  .art-aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+
+  .art-aspect-wide {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
