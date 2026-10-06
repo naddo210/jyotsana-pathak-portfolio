@@ -69,20 +69,20 @@ export const artworks = [
     image: "/images/artworks/live_landscape.jpg",
     mediumCategory: "Landscape"
   },
-  {
-    id: "portrait-in-light",
-    slug: "portrait-in-light",
-    title: "Portrait in Natural Light",
-    category: "PORTRAIT",
-    medium: "Vine Charcoal & White Chalk on Toned Paper",
-    year: "2026",
-    aspect: "portrait",
-    featured: false,
-    gridSpan: "col-span-12 sm:col-span-6 lg:col-span-4",
-    description: "Expressive charcoal portrait focusing on volumetric head structure, bone landmarks, and subtle tonal gradations lifted with dry white chalk highlights.",
-    image: "/images/artworks/portrait_charcoal.jpg",
-    mediumCategory: "Portraiture / Drawing"
-  },
+  // {
+  //   id: "portrait-in-light",
+  //   slug: "portrait-in-light",
+  //   title: "Portrait in Natural Light",
+  //   category: "PORTRAIT",
+  //   medium: "Vine Charcoal & White Chalk on Toned Paper",
+  //   year: "2026",
+  //   aspect: "portrait",
+  //   featured: false,
+  //   gridSpan: "col-span-12 sm:col-span-6 lg:col-span-4",
+  //   description: "Expressive charcoal portrait focusing on volumetric head structure, bone landmarks, and subtle tonal gradations lifted with dry white chalk highlights.",
+  //   image: "/images/artworks/portrait_charcoal.jpg",
+  //   mediumCategory: "Portraiture / Drawing"
+  // },
   {
     id: "warli-rhythm",
     slug: "warli-rhythm",
@@ -111,20 +111,20 @@ export const artworks = [
     image: "/images/artworks/lippan_relief.jpg",
     mediumCategory: "Lippan Art"
   },
-  {
-    id: "watercolor-portrait-study",
-    slug: "watercolor-portrait-study",
-    title: "Tonal Watercolor Portrait",
-    category: "PORTRAIT",
-    medium: "Watercolor & Gouache Wash on Cotton Rag",
-    year: "2026",
-    aspect: "portrait",
-    featured: false,
-    gridSpan: "col-span-12 sm:col-span-6 lg:col-span-4",
-    description: "Spontaneous wet-in-wet watercolor portrait capturing facial silhouette, delicate hair texture, and ambient warm light temperature through translucent strokes.",
-    image: "/images/artworks/portrait_watercolor.jpg",
-    mediumCategory: "Portraiture / Painting"
-  },
+  // {
+  //   id: "watercolor-portrait-study",
+  //   slug: "watercolor-portrait-study",
+  //   title: "Tonal Watercolor Portrait",
+  //   category: "PORTRAIT",
+  //   medium: "Watercolor & Gouache Wash on Cotton Rag",
+  //   year: "2026",
+  //   aspect: "portrait",
+  //   featured: false,
+  //   gridSpan: "col-span-12 sm:col-span-6 lg:col-span-4",
+  //   description: "Spontaneous wet-in-wet watercolor portrait capturing facial silhouette, delicate hair texture, and ambient warm light temperature through translucent strokes.",
+  //   image: "/images/artworks/portrait_watercolor.jpg",
+  //   mediumCategory: "Portraiture / Painting"
+  // },
   {
     id: "pattachitra-narrative",
     slug: "pattachitra-narrative",
